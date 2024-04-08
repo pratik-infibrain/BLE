@@ -14,7 +14,6 @@ class DeviceScreen extends StatefulWidget {
   final BluetoothDevice device;
 
   const DeviceScreen({Key? key, required this.device}) : super(key: key);
-
   @override
   State<DeviceScreen> createState() => _DeviceScreenState();
 }
